@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "Preston",
+      "email": "preston@home.com",
+      "id": 1
+    },
+    {
+      "name": "Ethan",
+      "email": "ethan@home.com",
+      "id": 2
+    },
+    {
+      "name": "Bryan",
+      "email": "bryan@home.com",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
+      "userId": 6,
+      "description": "This is my first post",
+      "timestamp": 1561695022812,
+      "title": "Enhanced global utilisation",
+      "id": 1
+    }
+  ],
+  "messages": []
+}
