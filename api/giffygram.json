@@ -24,6 +24,46 @@
       "timestamp": 1561695022812,
       "title": "Enhanced global utilisation",
       "id": 1
+    },
+    {
+      "title": "The Sand People are Easily Frightened",
+      "imageURL": "https://media.giphy.com/media/3ornjPteRwwUdSWifC/giphy.gif",
+      "description": "but they'll be back soon.... And in greater numbers",
+      "userId": 1,
+      "timestamp": 1615481919918,
+      "id": 2
+    },
+    {
+      "title": "That Thing's Operational!",
+      "imageURL": "https://media.giphy.com/media/3ornka9rAaKRA2Rkac/giphy.gif",
+      "description": "duh.....",
+      "userId": 1,
+      "timestamp": 1615482588807,
+      "id": 3
+    },
+    {
+      "title": "When the Instructors start talking about stuff that I don't understand",
+      "imageURL": "https://media.giphy.com/media/3o7abL1nxw0AvOK1pu/giphy.gif",
+      "description": "it really do be like that",
+      "userId": 1,
+      "timestamp": 1615482803053,
+      "id": 5
+    },
+    {
+      "title": "When I try running new code that I've never used before ",
+      "imageURL": "https://media.giphy.com/media/kB2uyoigIXPMI/giphy.gif",
+      "description": "Wise words from Master Yoda",
+      "userId": 3,
+      "timestamp": 1615483099966,
+      "id": 6
+    },
+    {
+      "title": "When my code doesn't work :(  ",
+      "imageURL": "https://media.giphy.com/media/LSmULmByAQHQs/giphy.gif",
+      "description": "couldn't have said it better myself",
+      "userId": 3,
+      "timestamp": 1615483195748,
+      "id": 7
     }
   ],
   "messages": []
