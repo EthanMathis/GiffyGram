@@ -108,3 +108,17 @@ export const registerUser = (userObj) => {
     return getLoggedInUser();
   })
 }
+
+export const getLoggedInUserPosts = () => {
+  const userId = getLoggedInUser().id
+  return fetch(`http://localhost:8088/posts?_expand=user`)
+  .then(response => response.json())
+  .then(allPosts => {
+    let userPostsArray = [];
+    for (const eachPost of allPosts) {
+      if (eachPost.userId === userId) {
+        userPostsArray.push(eachPost)
+      } 
+    }return userPostsArray
+  })
+}

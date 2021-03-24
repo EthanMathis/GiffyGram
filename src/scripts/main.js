@@ -1,7 +1,7 @@
 console.log("Welcome to the main module")
 import { getUsers, getPosts, usePostCollection, getLoggedInUser, 
   createPost, deletePost, getSinglePost, updatePost, 
-  logoutUser, setLoggedInUser, loginUser, registerUser } from "./data/DataManager.js";
+  logoutUser, setLoggedInUser, loginUser, registerUser, getLoggedInUserPosts } from "./data/DataManager.js";
 import { PostList } from "./feed/PostList.js";
 import { NavBar } from "./nav/NavBar.js";
 import { Footer } from "./nav/Footer.js";
@@ -115,6 +115,18 @@ applicationElement.addEventListener("click", event => {
         })
     }
   })
+
+applicationElement.addEventListener("click", event => {
+  event.preventDefault();
+  if (event.target.id.startsWith("showUserPosts")) {
+    const postElement = document.querySelector(".postList");
+    
+    getLoggedInUserPosts()
+    .then(usersPosts => 
+        // console.log("user posts", usersPosts))
+      postElement.innerHTML = PostList(usersPosts))
+  }
+})
 
   applicationElement.addEventListener("click", event => {
     event.preventDefault();
